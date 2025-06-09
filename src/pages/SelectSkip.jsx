@@ -50,7 +50,16 @@ const SelectSkip = ({ onNext, onBack }) => {
           </button>
         </div>
         {skipList && (
-          <div className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-" + gridType + " gap-6 p-4"}>
+          <div
+            className={`grid gap-6 p-4 ${gridType === 1
+              ? "grid-cols-1"
+              : gridType === 2
+                ? "grid-cols-2"
+                : gridType === 3
+                  ? "grid-cols-3"
+                  : "grid-cols-1"
+              }`}
+          >
             {skipList.map((skip, key) => (
               <SkipListGrid skip={skip} handleClick={handleClick} />
             ))}

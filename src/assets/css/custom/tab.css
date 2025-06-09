@@ -1,0 +1,13 @@
+.tab-headers {
+    display: flex;
+    gap: 10px
+}
+
+.tab-headers .tab-buttons {
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

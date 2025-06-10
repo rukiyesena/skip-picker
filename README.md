@@ -16,7 +16,7 @@ This project is a minimal and modern starter template built with React, Vite, Ta
 Follow the steps below to run the project locally:
 
 1.Clone the repository:
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/rukiyesena/skip-picker
 cd your-project
 
 2.Install the dependencies:

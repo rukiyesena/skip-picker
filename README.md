@@ -28,19 +28,7 @@ npm run dev
 4.Open http://localhost:5173 to view the app in the browser.
 
 🧱 Project Structure
-├── public/
-│   └── screenshots/
-├── src/
-|   ├── assets/
-│   ├── components/
-│   ├── helpers/
-│   ├── pages/
-│   ├── routes/
-│   ├── store/
-│   └── App.jsx
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
+<pre> ``` project-root/ ├── public/ │ └── screenshots/ │ └── siteview.png ├── src/ │ ├── components/ │ ├── redux/ │ ├── pages/ │ └── App.jsx ├── tailwind.config.js ├── vite.config.js └── README.md ``` </pre>
 
 🧠 Development Approach
 - Built with modular and scalable architecture in mind.

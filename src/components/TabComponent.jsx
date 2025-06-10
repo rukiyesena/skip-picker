@@ -28,7 +28,7 @@ const TabComponent = ({ tabs = [], activeTab: controlledActiveTab, onTabChange }
 
   return (
     <div className="tab-container">
-      <div className="tab-headers flex overflow-x-auto space-x-4 border-b border-gray-200 scrollbar-hide">
+      <div className="tab-headers w-full flex justify-center space-x-4 border-b border-gray-200">
         {tabs.map((tab, index) => {
           const isDisabled = index > activeIndex;
           const isActive = tab.id === activeTab;

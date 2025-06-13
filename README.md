@@ -1,3 +1,5 @@
+Sandbox Preview Link:  https://4737jq-5173.csb.app
+
 🚀 React + Vite + Tailwind V3 + Redux Thunk Template
 This project is a minimal and modern starter template built with React, Vite, Tailwind CSS v3, and Redux Thunk. It provides a solid foundation for building fast, scalable, and maintainable frontend applications.
 
